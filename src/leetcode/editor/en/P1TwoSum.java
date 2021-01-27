@@ -54,7 +54,7 @@ public class P1TwoSum{
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 
-/*
+/**
     Brute-force approach.
     @Time complexity: O(N^2)
     @Space complexity: O(1)
@@ -76,7 +76,7 @@ class Solution_1 {
 }
 
 
-/*
+/**
     Two-pass Hash Table approach.
     @Time complexity: O(N)
     @Space complexity: O(N)
@@ -105,7 +105,7 @@ class Solution_2 {
 }
 
 
-/*
+/**
     One-pass Hash Table approach.
     @Time complexity: O(N) - 但是比上一种
     @Space complexity: O(N)
