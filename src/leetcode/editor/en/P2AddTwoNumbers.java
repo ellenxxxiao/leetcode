@@ -43,6 +43,8 @@
 
 package leetcode.editor.en;
 
+import java.util.List;
+
 //Java：Add Two Numbers
 public class P2AddTwoNumbers{
     public static void main(String[] args) {
@@ -62,8 +64,8 @@ public class P2AddTwoNumbers{
  */
 
 /*
-    @Time complexity:
-    @Space complexity:
+    @Time complexity: O(max(M+N)). M -> len(l1), N -> len(l2).
+    @Space complexity: O(max(M+N)).
 
     思路：
     因为是倒序给的linked list（从least sig位到most sig位），所以直接依次相加。
@@ -79,7 +81,25 @@ public class P2AddTwoNumbers{
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        //初始化
+        ListNode dummyHead = new ListNode();    // dummyHead方便找到起点
+        ListNode p = l1, q = l2, curr = dummyHead;
+        int carryBit = 0;
 
+        while (p != null || q != null){
+            int pVal = (p == null) ? 0 : p.val;
+            int qVal = (q == null) ? 0 : q.val;
+            int res = pVal + qVal + carryBit;
+            carryBit = res/10;
+            curr.next = new ListNode(res%10);
+            curr = curr.next;
+            if (p != null) p = p.next;
+            if (q != null) q = q.next;
+        }
+        if (carryBit == 1){
+            curr.next = new ListNode(1);
+        }
+        return dummyHead.next;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
