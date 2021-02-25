@@ -58,7 +58,7 @@ class Solution {
     }
     private int binarySearchRecursionAux(int[] lst, int target, int lo, int hi){
         int mid = (lo+hi)/2;
-        if (lo>hi || lo<0)      return lo;
+        if (lo>hi)      return lo;
         if (lst[mid] == target)     return mid;
         if (lst[mid] > target)      return binarySearchRecursionAux(lst, target, lo, mid-1);
         else    return binarySearchRecursionAux(lst, target, mid+1, hi);

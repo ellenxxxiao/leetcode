@@ -105,7 +105,7 @@ public class P3LongestSubstringWithoutRepeatingCharacters{
 
     做法：
         使用一个HashMap记录每个character的最新位置index。
-        用i,j框住一个window。i表示左边框，j表示有边框。初始化i，j位置都为0。
+        用i,j框住一个window。i表示左边框，j表示右边框。初始化i，j位置都为0。
         右移j，看新框住的char是否unique。
             --> 是：把新框住的char放进map，继续右移j，更新最大length
             --> 否：右移i位置，至repeated character的后面（如果可以）。

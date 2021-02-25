@@ -65,7 +65,7 @@ public class P38CountAndSay{
     很明显的递归思想（因为下一个需要用上一个的结果计算）。
     base case 即 n==1，return “1“。
     recursive step 即 求得n-1时的字符串，数+拼接出n时的字符串，return。
-    复杂度
+
  */
 class Solution_1 {
     public String countAndSay(int n) {
@@ -111,8 +111,11 @@ class Solution{
         for (int i=1; i<n; i++){
             String temp = "";
             int count;
+            //遍历上一个答案的
             for (int j=0; j<res.length(); j++){
+                //重置count
                 count = 1;
+                //当 当前不是最后一位 且 前后两个item相等时
                 while (j != res.length()-1 && res.charAt(j) == res.charAt(j+1)){
                     count++;
                     j++;

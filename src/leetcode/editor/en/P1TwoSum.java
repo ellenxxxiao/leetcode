@@ -107,7 +107,7 @@ class Solution_2 {
 
 /**
     One-pass Hash Table approach.
-    @Time complexity: O(N) - 但是比上一种
+    @Time complexity: O(N) - 但是比上一种少一次遍历input array
     @Space complexity: O(N)
 
     使用一个hash map。

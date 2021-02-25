@@ -96,9 +96,12 @@ class Solution_1 {
 
 /*
     思路：
-    更高效的一种做法。上面那种做法，可以发现，每个循环，除非看到sentinel，否则都会swap。
-    在sentinel较少的情况下，这种swapping不够efficient，是无用功。
+    更高效的一种做法。上面那种做法，可以发现，每个循环，除非看到sentinel，否则都赋值。
+    在sentinel较少的情况下，这种方法不够efficient，是无用功。
     因此做以下这种情况。只在遇到sentinel的时候操作，把其放到末尾并砍掉，较为efficient。
+
+    WARNING:
+    会导致乱序！和上一种依次发现、依次赋值不同 - 这一种是把sentinel和最后一个item互换位置，会导致乱序。
  */
 class Solution {
     public int removeElement(int[] nums, int val) {

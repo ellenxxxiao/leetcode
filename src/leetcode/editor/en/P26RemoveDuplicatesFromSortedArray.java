@@ -73,7 +73,8 @@ public class P26RemoveDuplicatesFromSortedArray{
     用两个pointer，一个快pointer一个慢pointer。
     快pointer：无条件遍历array的pointer。
     慢pointer：按条件移动的pointer。
-    此处，慢pointer标记unique item的位置，在快pointer指向新发现的item时，与之互换位置。标记新的unique item。
+    此处，慢pointer标记可放置新unique item的位置（上一个unique item的位置+1）。
+    在快pointer指向新发现的unique item时，把其赋到慢pointer所标记的位置。
     因为慢pointer只会右移，所以不会洗掉此前已正确放置的元素，此外这种放置一定是有顺序的，因为快pointer会按顺序发现新的unique item。
  */
 class Solution {
