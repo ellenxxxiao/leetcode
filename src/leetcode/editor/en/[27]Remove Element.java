@@ -63,15 +63,8 @@
 // 👍 1896 👎 3293
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 //Java：Remove Element
-public class P27RemoveElement{
-    public static void main(String[] args) {
-        Solution solution = new P27RemoveElement().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-
 /*
     Array - Two pointers.
     思路：

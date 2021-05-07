@@ -42,18 +42,11 @@
 // 👍 18936 👎 675
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 
 import java.util.HashMap;
 
 //Java：Two Sum
-public class P1TwoSum{
-    public static void main(String[] args) {
-        Solution solution = new P1TwoSum().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-
 /**
     Brute-force approach.
     @Time complexity: O(N^2)

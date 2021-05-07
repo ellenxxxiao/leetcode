@@ -29,15 +29,8 @@
 // 👍 4259 👎 6578
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 //Java：Reverse Integer
-public class P7ReverseInteger{
-    public static void main(String[] args) {
-        Solution solution = new P7ReverseInteger().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-
     /*
         Math.
         思路：

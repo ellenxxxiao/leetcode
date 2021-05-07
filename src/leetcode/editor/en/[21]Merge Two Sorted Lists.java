@@ -35,14 +35,8 @@
 // 👍 6002 👎 716
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 //Java：Merge Two Sorted Lists
-public class P21MergeTwoSortedLists{
-    public static void main(String[] args) {
-        Solution solution = new P21MergeTwoSortedLists().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for singly-linked list.
  * public class ListNode {

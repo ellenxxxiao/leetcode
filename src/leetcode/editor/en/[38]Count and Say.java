@@ -49,15 +49,8 @@
 // 👍 256 👎 964
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 //Java：Count and Say
-public class P38CountAndSay{
-    public static void main(String[] args) {
-        Solution solution = new P38CountAndSay().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-
 /*
     String, Recursion.
 

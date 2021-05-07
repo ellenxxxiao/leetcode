@@ -41,17 +41,9 @@
 // 👍 10588 👎 2589
 
 
-package leetcode.editor.en;
-
-import java.util.List;
+package src.leetcode.editor.en;
 
 //Java：Add Two Numbers
-public class P2AddTwoNumbers{
-    public static void main(String[] args) {
-        Solution solution = new P2AddTwoNumbers().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for singly-linked list.
  * public class ListNode {

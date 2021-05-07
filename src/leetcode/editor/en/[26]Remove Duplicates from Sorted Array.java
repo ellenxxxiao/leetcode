@@ -57,15 +57,8 @@
 // 👍 3465 👎 6386
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 //Java：Remove Duplicates from Sorted Array
-public class P26RemoveDuplicatesFromSortedArray{
-    public static void main(String[] args) {
-        Solution solution = new P26RemoveDuplicatesFromSortedArray().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-
 /*
     Array, Pointer.
 

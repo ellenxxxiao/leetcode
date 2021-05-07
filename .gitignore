@@ -1,5 +1,6 @@
 target/
 *.iml
 .idea/
-src/leetcode/editor/en/all.json
+src/all.json
 src/leetcode/editor/en/*.md
+/out/

@@ -48,15 +48,8 @@
 // 👍 2987 👎 1692
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 //Java：Palindrome Number
-public class P9PalindromeNumber{
-    public static void main(String[] args) {
-        Solution solution = new P9PalindromeNumber().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-
     /*
         String + pointer approach.
 

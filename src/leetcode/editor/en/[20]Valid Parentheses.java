@@ -55,18 +55,11 @@
 // 👍 6700 👎 271
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 
 import java.util.Stack;
 
 //Java：Valid Parentheses
-public class P20ValidParentheses{
-    public static void main(String[] args) {
-        Solution solution = new P20ValidParentheses().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-
 /*
     Stack.
 

@@ -46,7 +46,7 @@
 // 👍 12853 👎 670
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -54,12 +54,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 //Java：Longest Substring Without Repeating Characters
-public class P3LongestSubstringWithoutRepeatingCharacters{
-    public static void main(String[] args) {
-        Solution solution = new P3LongestSubstringWithoutRepeatingCharacters().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
 
 /**
     Brute-force approach.

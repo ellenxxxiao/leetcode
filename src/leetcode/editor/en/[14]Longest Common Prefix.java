@@ -31,15 +31,8 @@
 // 👍 3614 👎 2103
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 //Java：Longest Common Prefix
-public class P14LongestCommonPrefix{
-    public static void main(String[] args) {
-        Solution solution = new P14LongestCommonPrefix().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-
 /*
     String Processing.
     方法：

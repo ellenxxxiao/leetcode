@@ -79,17 +79,11 @@
 // 👍 2895 👎 3917
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 
 import java.util.HashMap;
 
 //Java：Roman to Integer
-public class P13RomanToInteger{
-    public static void main(String[] args) {
-        Solution solution = new P13RomanToInteger().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
 /*
     String & Math.
 

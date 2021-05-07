@@ -32,15 +32,8 @@
 // 👍 3134 👎 285
 
 
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 //Java：Search Insert Position
-public class P35SearchInsertPosition{
-    public static void main(String[] args) {
-        Solution solution = new P35SearchInsertPosition().new Solution();
-        // TO TEST
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-
 /*
     Binary Search.
 
